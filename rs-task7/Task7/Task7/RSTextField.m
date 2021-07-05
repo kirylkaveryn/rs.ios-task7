@@ -6,7 +6,7 @@
 //
 
 #import "RSTextField.h"
-#import "RSColor.m"
+#import "RSColor.h"
 
 @interface RSTextField()
 

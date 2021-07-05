@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED3D8DDA2693A53000DBB4FE /* RSColor.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3D8DD92693A53000DBB4FE /* RSColor.m */; };
 		ED436153268E6B4B0014E2B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED436152268E6B4B0014E2B9 /* AppDelegate.m */; };
 		ED436159268E6B4B0014E2B9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED436158268E6B4B0014E2B9 /* ViewController.m */; };
 		ED43615E268E6B520014E2B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED43615D268E6B520014E2B9 /* Assets.xcassets */; };
 		ED436164268E6B520014E2B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED436163268E6B520014E2B9 /* main.m */; };
 		ED436170269072E40014E2B9 /* RSTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = ED43616F269072E40014E2B9 /* RSTextField.m */; };
-		ED43617926908F980014E2B9 /* RSColor.m in Sources */ = {isa = PBXBuildFile; fileRef = ED43617826908F980014E2B9 /* RSColor.m */; };
+		ED43617926908F980014E2B9 /* RSColor.h in Sources */ = {isa = PBXBuildFile; fileRef = ED43617826908F980014E2B9 /* RSColor.h */; };
 		ED43617D2690B4330014E2B9 /* RSAuthorizeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = ED43617C2690B4330014E2B9 /* RSAuthorizeButton.m */; };
 		ED4361832690E37A0014E2B9 /* RSCircleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4361822690E37A0014E2B9 /* RSCircleButton.m */; };
 		ED4361872690F80E0014E2B9 /* RSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4361862690F80E0014E2B9 /* RSLabel.m */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ED3D8DD92693A53000DBB4FE /* RSColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSColor.m; sourceTree = "<group>"; };
 		ED43614E268E6B4B0014E2B9 /* Task7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Task7.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED436151268E6B4B0014E2B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		ED436152268E6B4B0014E2B9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -30,7 +32,7 @@
 		ED436163268E6B520014E2B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ED43616E269072E40014E2B9 /* RSTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSTextField.h; sourceTree = "<group>"; };
 		ED43616F269072E40014E2B9 /* RSTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSTextField.m; sourceTree = "<group>"; };
-		ED43617826908F980014E2B9 /* RSColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSColor.m; sourceTree = "<group>"; };
+		ED43617826908F980014E2B9 /* RSColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSColor.h; sourceTree = "<group>"; };
 		ED43617B2690B4330014E2B9 /* RSAuthorizeButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSAuthorizeButton.h; sourceTree = "<group>"; };
 		ED43617C2690B4330014E2B9 /* RSAuthorizeButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSAuthorizeButton.m; sourceTree = "<group>"; };
 		ED4361812690E37A0014E2B9 /* RSCircleButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSCircleButton.h; sourceTree = "<group>"; };
@@ -74,7 +76,8 @@
 				ED436152268E6B4B0014E2B9 /* AppDelegate.m */,
 				ED436157268E6B4B0014E2B9 /* ViewController.h */,
 				ED436158268E6B4B0014E2B9 /* ViewController.m */,
-				ED43617826908F980014E2B9 /* RSColor.m */,
+				ED43617826908F980014E2B9 /* RSColor.h */,
+				ED3D8DD92693A53000DBB4FE /* RSColor.m */,
 				ED43617B2690B4330014E2B9 /* RSAuthorizeButton.h */,
 				ED43617C2690B4330014E2B9 /* RSAuthorizeButton.m */,
 				ED4361812690E37A0014E2B9 /* RSCircleButton.h */,
@@ -159,12 +162,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED3D8DDA2693A53000DBB4FE /* RSColor.m in Sources */,
 				ED436170269072E40014E2B9 /* RSTextField.m in Sources */,
 				ED4361872690F80E0014E2B9 /* RSLabel.m in Sources */,
 				ED436159268E6B4B0014E2B9 /* ViewController.m in Sources */,
 				ED43617D2690B4330014E2B9 /* RSAuthorizeButton.m in Sources */,
 				ED4361832690E37A0014E2B9 /* RSCircleButton.m in Sources */,
-				ED43617926908F980014E2B9 /* RSColor.m in Sources */,
+				ED43617926908F980014E2B9 /* RSColor.h in Sources */,
 				ED436153268E6B4B0014E2B9 /* AppDelegate.m in Sources */,
 				ED436164268E6B520014E2B9 /* main.m in Sources */,
 			);

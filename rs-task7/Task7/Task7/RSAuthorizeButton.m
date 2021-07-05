@@ -6,7 +6,7 @@
 //
 
 #import "RSAuthorizeButton.h"
-#import "RSColor.m"
+#import "RSColor.h"
 
 @implementation RSAuthorizeButton
 

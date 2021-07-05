@@ -9,7 +9,7 @@
 #import "RSTextField.h"
 #import "RSAuthorizeButton.h"
 #import "RSCircleButton.h"
-#import "RSColor.m"
+#import "RSColor.h"
 #import "RSLabel.h"
 
 

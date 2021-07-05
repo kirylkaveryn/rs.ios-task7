@@ -6,7 +6,7 @@
 //
 
 #import "RSLabel.h"
-#import "RSColor.m"
+#import "RSColor.h"
 
 @interface RSLabel()
 

@@ -6,7 +6,7 @@
 //
 
 #import "RSCircleButton.h"
-#import "RSColor.m"
+#import "RSColor.h"
 
 @implementation RSCircleButton
 
